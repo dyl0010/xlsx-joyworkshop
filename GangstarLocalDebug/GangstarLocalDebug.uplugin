@@ -1,0 +1,38 @@
+{
+    "FileVersion": 3,
+    "Version": 1,
+    "VersionName": "1.0",
+    "FriendlyName": "Gangstar Local Debug",
+    "Description": "Local-only ImGui debug tools for Gangstar.",
+    "Category": "Debug",
+    "CreatedBy": "",
+    "CreatedByURL": "",
+    "DocsURL": "",
+    "MarketplaceURL": "",
+    "SupportURL": "",
+    "CanContainContent": false,
+    "IsBetaVersion": false,
+    "Installed": false,
+    "EnabledByDefault": true,
+    "Modules": [
+        {
+            "Name": "GangstarLocalDebug",
+            "Type": "Developer",
+            "LoadingPhase": "PostEngineInit"
+        }
+    ],
+    "Plugins": [
+		{
+			"Name": "GSTMFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "GSLib",
+			"Enabled": true
+		},
+        {
+                "Name": "ImGui",
+                "Enabled": true
+        }
+    ]
+}
